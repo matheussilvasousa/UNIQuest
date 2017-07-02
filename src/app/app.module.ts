@@ -6,7 +6,7 @@ import { Geolocation } from '@ionic-native/geolocation';
 import { GoogleMaps } from '@ionic-native/google-maps';
 
 import { MapPage } from '../pages/map/map';
-import { ContactPage } from '../pages/contact/contact';
+import { ProfilePage } from '../pages/profile/profile';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -21,7 +21,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     MapPage,
-    ContactPage,
+    ProfilePage,
     HomePage,
     TabsPage
   ],
@@ -33,7 +33,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     MapPage,
-    ContactPage,
+    ProfilePage,
     HomePage,
     TabsPage
   ],
