@@ -10,6 +10,8 @@ import { ProfilePage } from '../pages/profile/profile';
 import { MissionsPage } from '../pages/missions/missions';
 import { TabsPage } from '../pages/tabs/tabs';
 
+import { MissionViewPage } from '../pages/missionview/missionview';
+
 import { MissionService } from '../providers/mission.service';
 import { AchievementService } from '../providers/achievement.service';
 import { AdventurerService } from '../providers/adventurer.service';
@@ -23,7 +25,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MapPage,
     ProfilePage,
     MissionsPage,
-    TabsPage
+    TabsPage,
+    MissionViewPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MapPage,
     ProfilePage,
     MissionsPage,
-    TabsPage
+    TabsPage,
+    MissionViewPage
   ],
   providers: [
     StatusBar,

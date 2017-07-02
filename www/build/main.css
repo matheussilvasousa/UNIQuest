@@ -27530,6 +27530,68 @@ page-missions .UNImargintop {
   margin-top: 10px;
 }
 
+page-missions .UNIicon {
+  width: 100px;
+  height: 100px;
+}
+
+page-missions .UNIdescription {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+page-missions .UNIdiv {
+  width: 100%;
+}
+
+page-missions .UNIlocalization {
+  border: 2px solid purple;
+  height: 100px;
+}
+
+page-missions .UNIcreator {
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
+page-missions .UNIreward {
+  width: 100%;
+  margin-top: -15px;
+}
+
+page-missionview .UNIpurple {
+  color: purple;
+}
+
+page-missionview .UNIicon {
+  width: 100px;
+  height: 100px;
+}
+
+page-missionview .UNIdescription {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+page-missionview .UNIdiv {
+  width: 100%;
+}
+
+page-missionview .UNIlocalization {
+  border: 2px solid purple;
+  height: 100px;
+}
+
+page-missionview .UNIcreator {
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
+page-missionview .UNIreward {
+  width: 100%;
+  margin-top: -15px;
+}
+
 page-profile .avatar-frame {
   border: 2px solid purple;
 }
