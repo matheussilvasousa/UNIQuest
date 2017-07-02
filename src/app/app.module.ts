@@ -8,6 +8,7 @@ import { GoogleMaps } from '@ionic-native/google-maps';
 import { MapPage } from '../pages/map/map';
 import { ProfilePage } from '../pages/profile/profile';
 import { MissionsPage } from '../pages/missions/missions';
+import { CreateMissionPage } from '../pages/createmission/createmission';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { MissionViewPage } from '../pages/missionview/missionview';
@@ -26,7 +27,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilePage,
     MissionsPage,
     TabsPage,
-    MissionViewPage
+    MissionViewPage,
+    CreateMissionPage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilePage,
     MissionsPage,
     TabsPage,
-    MissionViewPage
+    MissionViewPage,
+    CreateMissionPage
   ],
   providers: [
     StatusBar,

@@ -1,0 +1,105 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Criar Missão
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <!--Nome da Missao-->
+    <ion-row justify-content-center>
+        <div class="UNIdiv">
+            <ion-list>
+                <ion-item>
+                    <ion-input type="text" placeholder="Nome da Missão"></ion-input>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-row>
+
+    <ion-row justify-content-center>
+      <!--Ícone-->
+      <ion-col col-4  style="border: 2px solid purple;">
+        <ion-icon name="add-circle" style="color:purple; font-size: 20px; left: 50%;"></ion-icon>
+      </ion-col>
+
+      <!--Data e Hora-->
+      <ion-col col-8>
+        <div ion-list>
+          <ion-item>
+            <ion-label>Data</ion-label>
+            <ion-datetime displayFormat="DDD MM YYYY" ></ion-datetime>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>Horário</ion-label>
+            <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A"></ion-datetime>
+          </ion-item>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <!--Descrição-->
+    <ion-row justify-content-center>
+      <h6>Descrição</h6>
+      <div class="UNIdiv">
+            <ion-list>
+                <ion-item>
+                    <ion-input type="text" placeholder="Descreva sua missão"></ion-input>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-row>
+
+    <!--Localização-->
+    <ion-row justify-content-center>
+      <div class="UNIdiv">
+        <hr>
+        <div class="UNIlocalization"></div>
+      </div>
+    </ion-row>
+
+    <!--Criador-->
+    <ion-row>
+      <div class="UNIdiv">
+        <hr>
+        <ion-row class="UNIcreator">
+          <ion-col col-3>
+            <p><b>Criado por:</b></p>
+          </ion-col>
+          <ion-col col-9>
+            <div class="UNIdiv">
+                <ion-list>
+                    <ion-item>
+                        <ion-input type="text" placeholder="Nome do Usuário"></ion-input>
+                    </ion-item>
+                </ion-list>
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-row>
+
+    <!--Recompensa-->
+    <ion-row justify-content-center>
+      <div class="UNIreward">
+        <hr>
+        <h6 align=center>Recompensas</h6>
+        <div class="UNIdiv">
+            <ion-list>
+                <ion-item>
+                    <ion-input type="text" placeholder="Enumere as recompensas"></ion-input>
+                </ion-item>
+            </ion-list>
+        </div>
+      </div>
+    </ion-row>
+
+    <!--Botão-->
+    <ion-row justify-content-center>
+      <button ion-button color="uni">SALVAR</button>
+    </ion-row>
+  </ion-grid>
+</ion-content>

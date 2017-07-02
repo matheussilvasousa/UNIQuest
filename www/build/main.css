@@ -27493,6 +27493,39 @@ ion-navbar.toolbar {
   }
 }
 
+page-createmission .UNIpurple {
+  color: purple;
+}
+
+page-createmission .UNIicon {
+  width: 100px;
+  height: 100px;
+}
+
+page-createmission .UNIdescription {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+page-createmission .UNIdiv {
+  width: 100%;
+}
+
+page-createmission .UNIlocalization {
+  border: 2px solid purple;
+  height: 100px;
+}
+
+page-createmission .UNIcreator {
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
+page-createmission .UNIreward {
+  width: 100%;
+  margin-top: -15px;
+}
+
 page-map #map {
   position: relative;
   height: 100%;
