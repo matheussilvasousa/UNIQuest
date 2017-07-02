@@ -1,0 +1,22 @@
+{
+    "cordova-plugin-geolocation": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-geolocation"
+        },
+        "is_top_level": true,
+        "variables": {
+            "GEOLOCATION_USAGE_DESCRIPTION": "The app need the geolocation"
+        }
+    },
+    "cordova-plugin-googlemaps": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-googlemaps@^1.4.1"
+        },
+        "is_top_level": true,
+        "variables": {
+            "API_KEY_FOR_ANDROID": "AIzaSyCftSTOparki8WZSiBPt5-wUyEiqvQ8X-c"
+        }
+    }
+}
