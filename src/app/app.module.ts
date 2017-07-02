@@ -7,7 +7,7 @@ import { GoogleMaps } from '@ionic-native/google-maps';
 
 import { MapPage } from '../pages/map/map';
 import { ProfilePage } from '../pages/profile/profile';
-import { HomePage } from '../pages/home/home';
+import { MissionsPage } from '../pages/missions/missions';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { MissionService } from '../providers/mission.service';
@@ -22,7 +22,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     MapPage,
     ProfilePage,
-    HomePage,
+    MissionsPage,
     TabsPage
   ],
   imports: [
@@ -34,7 +34,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     MapPage,
     ProfilePage,
-    HomePage,
+    MissionsPage,
     TabsPage
   ],
   providers: [
