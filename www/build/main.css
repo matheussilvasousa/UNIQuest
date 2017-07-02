@@ -27504,6 +27504,24 @@ page-map .map-search ion-searchbar {
   /* top: 0; */
 }
 
+page-map .UNImargintop {
+  margin-top: 10px;
+}
+
+page-map .UNIdivmap {
+  border: 2px solid purple;
+  width: 100%;
+}
+
+page-map .UNImapimg {
+  width: 100px;
+  height: 100px;
+}
+
+page-map .UNIpurple {
+  color: purple;
+}
+
 page-missions .UNIpurple {
   color: purple;
 }

@@ -7,5 +7,19 @@
 </ion-header>
 
 <ion-content>
-  <div #map id="map"></div>
+  <ion-grid class="UNImargintop">
+    <ion-row>
+      <!--Nao consegui tirar esse style e colocar no scss, quando coloco la dentro ele nao funciona-->
+      <div class="UNIdivmap" style="height: 350px;" #map id="map"></div>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4>
+        <img class="UNImapimg" src="http://advancement.yorku.ca/files/2014/09/icon_23557.png">
+      </ion-col>
+      <ion-col col-8>
+        <h3 class="UNIpurple">Atravessar a Rua</h3>
+        <p>Ajudar um pobre velhinho a atravessar uma rua movimentada.</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
