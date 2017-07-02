@@ -1,0 +1,35 @@
+<ion-content padding>
+    <ion-grid>
+        <ion-row>
+            <div>
+                <img src="https://vectr.com/bomfimluiza/c9LFTPr4X.svg?width=351.8&height=370&select=c9LFTPr4Xpage0"/>
+            </div>
+        </ion-row>
+
+        <ion-row>
+            <ion-list>
+                <ion-item>
+                    <ion-label fixed>Usuário</ion-label>
+                    <ion-input type="text" value="" #username></ion-input>
+                </ion-item>
+
+                <ion-item>
+                    <ion-label fixed>Senha</ion-label>
+                    <ion-input type="password"></ion-input>
+                </ion-item>
+            </ion-list>
+        </ion-row>
+
+        <ion-row justify-content-center>
+            <button ion-button color="uni" (click)="login(username.value)">ENTRAR</button>
+        </ion-row>
+    </ion-grid>
+
+  <!--<h3>Login</h3>
+
+  <p>Enter a username below then click login.</p>
+
+  <input type="text" #username />
+
+  <button ion-button secondary (click)="login(username.value)">Login</button>-->
+</ion-content>

@@ -5,6 +5,8 @@ import { MyApp } from './app.component';
 import { Geolocation } from '@ionic-native/geolocation';
 import { GoogleMaps } from '@ionic-native/google-maps';
 
+import { LoginModule } from './login/login.module';
+
 import { MapPage } from '../pages/map/map';
 import { ProfilePage } from '../pages/profile/profile';
 import { MissionsPage } from '../pages/missions/missions';
@@ -32,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    LoginModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
